@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Claude Code local config
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test artifacts from our project
+test-tree/
+test-files/
+_test_throwaway/
+*.log
+
+# Anything secret (good habit even if not relevant yet)
+.env
+*.key
